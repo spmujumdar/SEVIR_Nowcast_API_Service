@@ -1,0 +1,16 @@
+# local package
+-e .
+
+# external requirements
+click
+Sphinx
+coverage
+awscli
+flake8
+python-dotenv>=0.5.1
+python==3.7
+tensorflow==2.1.0
+pandas
+numpy
+h5py==2.8.0
+matplotlib==3.2.0
