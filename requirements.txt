@@ -1,6 +1,6 @@
 # local package
 -e .
-python==3.7
+
 # external requirements
 click
 Sphinx
