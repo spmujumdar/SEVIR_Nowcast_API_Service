@@ -99,9 +99,9 @@ if "%1" == "qthelp" (
 	echo.
 	echo.Build finished; now you can run "qcollectiongenerator" with the ^
 .qhcp project file in %BUILDDIR%/qthelp, like this:
-	echo.^> qcollectiongenerator %BUILDDIR%\qthelp\Nowcast-API-using-FastAPI.qhcp
+	echo.^> qcollectiongenerator %BUILDDIR%\qthelp\Host-nowcast-API.qhcp
 	echo.To view the help file:
-	echo.^> assistant -collectionFile %BUILDDIR%\qthelp\Nowcast-API-using-FastAPI.ghc
+	echo.^> assistant -collectionFile %BUILDDIR%\qthelp\Host-nowcast-API.ghc
 	goto end
 )
 

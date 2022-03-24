@@ -20,15 +20,6 @@ plt.rcParams["figure.figsize"] = (10,10)
 ##############################################################################
 # Filtering Catalog 
 
-'''
-lat = 37.318363
-lon = -84.224203 
-time ="2019-06-02 18:33:00"
-radius = 100
-sevir_catalog = "C:\\Users\\krish\\Documents\\Northeastern University\\Spring22\\DAMG 7245\\Assignment-4\\CATALOG.csv"
-closest_radius = False
-'''
-
 def filterCatalog(lat, lon, radius, time_utc, catalog_path, closest_radius):
     # read catalog
     catalog = pd.read_csv(catalog_path, parse_dates = ['time_utc'], low_memory = False)

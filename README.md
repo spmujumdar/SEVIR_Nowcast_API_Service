@@ -1,5 +1,5 @@
-SEVIR Nowcast API using FastAPI web-framework
-============================================================
+Hosting SEVIR Nowcast API using Streamlit and Heroku
+==============================
 
 Report link (GoogleDoc): https://docs.google.com/document/d/1XSUotbV7bAod1QYp7f28zVP2qf2TTP5Fij_wSKRQ-ww/edit?usp=sharing
 
@@ -92,7 +92,7 @@ Project Organization
     │   │   ├── nowcast_helper.py
     │   │   ├── nowcast_main.py
     │   │   ├── nowcast_utils.py
-    │   │   └── test-api.py
+    │   │   └── streamlit-app.py
     │   │
     │   ├── features       
     │   │   └── build_features.py

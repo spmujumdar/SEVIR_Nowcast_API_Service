@@ -77,17 +77,17 @@ qthelp:
 	@echo
 	@echo "Build finished; now you can run "qcollectiongenerator" with the" \
 	      ".qhcp project file in $(BUILDDIR)/qthelp, like this:"
-	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/Nowcast-API-using-FastAPI.qhcp"
+	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/Host-nowcast-API.qhcp"
 	@echo "To view the help file:"
-	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/Nowcast-API-using-FastAPI.qhc"
+	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/Host-nowcast-API.qhc"
 
 devhelp:
 	$(SPHINXBUILD) -b devhelp $(ALLSPHINXOPTS) $(BUILDDIR)/devhelp
 	@echo
 	@echo "Build finished."
 	@echo "To view the help file:"
-	@echo "# mkdir -p $$HOME/.local/share/devhelp/Nowcast-API-using-FastAPI"
-	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/Nowcast-API-using-FastAPI"
+	@echo "# mkdir -p $$HOME/.local/share/devhelp/Host-nowcast-API"
+	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/Host-nowcast-API"
 	@echo "# devhelp"
 
 epub:

@@ -4,7 +4,7 @@ setup(
     name='src',
     packages=find_packages(),
     version='0.1.0',
-    description='SEVIR Nowcast API using FastAPI web-framework.',
+    description='Hosting the Nowcast FastAPI using Streamlit and Heroku',
     author='Aditi Krishna',
     license='MIT',
 )
