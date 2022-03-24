@@ -28,7 +28,7 @@ def main():
     params_test = {"lat": lat, "lon": lon, "radius": radius, "time_utc": time_utc, "model_type": model_type, "closest_radius": closest_radius}
     
     if st.button("Predict"):
-        nowcast_test = requests.post("http://127.0.0.1:8000/nowcast/", json = params_test)      
+        nowcast_test = requests.post(json = params_test)      
         sevir_output_test = nowcast_test.json()
         if 'nowcast_error' in sevir_output_test.keys():
             st.error({'nowcast_error': sevir_output_test['nowcast_error']})
